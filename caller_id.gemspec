@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["bellis@on-site.com"]
   gem.description   = %q{Ruby wrapper for OpenCNAM}
   gem.summary       = %q{Do reverse phone lookups via OpenCNAM ( http://www.opencnam.com/ )}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/on-site/caller_id"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
