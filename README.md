@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-    c = CallerId::ReversePhoneLookup "+1 (202) 456-1414", open_cnam_username, open_cnam_api_key
+    c = CallerId::ReversePhoneLookup.new "+1 (202) 456-1414", open_cnam_username, open_cnam_api_key
     # Username and key are optional. Sign up at http://opencnam.com to get them.
     c.lookup
     # {:cnam => "WHITE HOUSE SWI", :number => "2024561414"}
